@@ -18,14 +18,14 @@ stocks = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/maste
 a1, a2, a3 = st.columns(3)
 a1.image(Image.open('streamlit-logo-secondary-colormark-darktext.png'))
 a2.metric("Wind", "9 mph", "-8%")
-a3.metric("Humidity", "86%", "4%")
+a3.metric("Brother", "86%", "4%")
 
 # Row B
 b1, b2, b3, b4 = st.columns(4)
 b1.metric("Temperature", "70 °F", "1.2 °F")
 b2.metric("Wind", "9 mph", "-8%")
-b3.metric("Humidity", "86%", "4%")
-b4.metric("Humidity", "86%", "4%")
+b3.metric("Brother", "86%", "4%")
+b4.metric("Brother", "86%", "4%")
 
 # Row C
 c1, c2 = st.columns((7,3))
